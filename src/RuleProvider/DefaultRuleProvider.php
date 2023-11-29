@@ -10901,7 +10901,7 @@ class DefaultRuleProvider implements RuleProviderInterface
      *
      * @return array
      */
-    public function getRules(string $ruleset): array
+    public function getRules($ruleset)
     {
         return $this->rules[$ruleset];
     }
